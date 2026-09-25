@@ -45,7 +45,7 @@ In this lab I used **LLDAP** (Light LDAP), a lightweight identity management ser
 
 At first login, the directory contained only the built-in `admin` account.
 
-![Admin users page](screenshots/01-admin-users-initial.png)
+![Admin users page](01-admin-users-initial.png)
 
 ---
 
@@ -73,7 +73,7 @@ Created a non-admin identity to validate the policy. Access policies should alwa
 
 The new user appeared in the Users list next to `admin`:
 
-![Users list with analyst1](screenshots/03-users-list-analyst1.png)
+![Users list with analyst1](03-users-list-analyst1.png)
 
 ---
 
@@ -88,7 +88,7 @@ The new user appeared in the Users list next to `admin`:
 
 After saving, the Groups page showed the new group alongside LLDAP's built-in groups:
 
-![Groups list](screenshots/04-groups-list.png)
+![Groups list](04-groups-list.png)
 
 ### Understanding LLDAP's built-in groups
 
@@ -119,11 +119,11 @@ After saving, the Groups page showed the new group alongside LLDAP's built-in gr
 
 Logged out as `admin` and logged in as `analyst1`.
 
-![analyst1 login](screenshots/06-login-analyst1.png)
+![analyst1 login](06-login-analyst1.png)
 
 After login, `analyst1` was taken directly to their own profile page:
 
-![analyst1 profile view](screenshots/07-analyst1-profile.png)
+![analyst1 profile view](07-analyst1-profile.png)
 
 ### Results
 
@@ -147,7 +147,7 @@ After login, `analyst1` was taken directly to their own profile page:
 
 Logged out and back in as `admin` to audit memberships.
 
-![Admin groups verification](screenshots/08-admin-groups-verify.png)
+![Admin groups verification](08-admin-groups-verify.png)
 
 Verification checklist:
 
