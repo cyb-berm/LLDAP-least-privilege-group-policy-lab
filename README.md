@@ -1,0 +1,1 @@
+# LLDAP-least-privilege-group-policy-lab
