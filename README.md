@@ -69,7 +69,7 @@ Created a non-admin identity to validate the policy. Access policies should alwa
 | Username | `analyst1` |
 | Password | Lab-safe password (e.g. `Analyst1!Pass`) |
 
-![Create user form](screenshots/02-create-user-analyst1.png)
+![Create user form](02-create-user-analyst1.png)
 
 The new user appeared in the Users list next to `admin`:
 
